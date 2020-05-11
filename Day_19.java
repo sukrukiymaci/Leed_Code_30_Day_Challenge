@@ -19,9 +19,8 @@ Constraints:
 1 <= preorder[i] <= 10^8
 The values of preorder are distinct.
 
-
 */
-
+//It can be solved using the mid value in the array and can be logn solution. But O(n) was easier and working fine. I may optimize it later.
 class Solution {
     public int search(int[] nums, int target) {
         
